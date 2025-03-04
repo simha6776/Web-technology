@@ -1,0 +1,32 @@
+
+7. Develop and demonstrate a XHTML file that includes JavaScript script for the following problems: a) Input: A number n obtained using prompt, Output: The first n Fibonacci numbers
+b) Input: A number n obtained using prompt, Output: A table of numbers from 1 to n and their
+squares using alert
+<!--P7a.html -->
+<html>
+<head>
+<title>Program 7A</title>
+</head>
+<script type="text/javascript">
+<!--
+function fib()
+{
+var n= prompt("Enter N: ",""");
+fib1=0;
+fib2=1;
+fib=0;
+document.write("<h2>"+fib1 +"\n</h2>");
+document.write("<h2>"+fib2 +"\n</h2>");
+for(i=0;i<n;i++)
+{
+fib = fib1+fib2;
+fib1=fib2;
+fib2=fib;
+document.write("<h2>"+fib +"\n</h2>");
+}
+}
+-->
+</script>
+<body onload="fib()">
+</body>
+</html>
