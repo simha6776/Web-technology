@@ -1,0 +1,32 @@
+6. Create an XHTML page that provides information about your department. Your XIMI
+use the following tage:
+a) Text Formatting tags
+b) Horizontal rule
+c) Meta element
+Links
+e) Images
+1) Tables (Use of additional tags encouraged).
+<doctype html>
+<html lang="en"> <head>
+<<b>All meta is in head section Metadata will not be displayed on the page, but will t
+machine parsable.</b>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="">
+<meta name="keywords" content="">
+<meta name="Description" content=""> <title>Department</title>
+</head> <body>
+<center><h1>MASTER OF COMPUTER APPLICATION</h1></center>
+<hr>
+<p>MCA dept started in 2012 with <i> In take of 60</i> <u>Subsiqently it is increased to 120</u></p>
+<b>Facilities Avaliable</b>
+<hr width="2500" color="red" size="10"algin="left"> <ul>
+<li>Class room with projector</li>
+<li>Lab with internet</li>
+<li>Wifi</li>
+</ul>
+<b>Some picture of the Department </b>
+<h2>images tag</h2>
+<img src="images/vtu-logo.jpg" alt="visvesvaraya technological university" will
+height="42">
+<br>
