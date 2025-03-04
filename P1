@@ -30,3 +30,28 @@ document.write("<h2>"+fib +"\n</h2>");
 <body onload="fib()">
 </body>
 </html>
+
+
+
+
+<I-P7b.html -->
+<html>
+<head>
+<title>Program 7b</title>
+</head>
+<script type="text/javascript"><!--
+function sqr()
+{
+var n= prompt ("Enter N: ","");
+msgstr "The square of numbers from 1 to "+n+" is: \n"; for(i=1;i<=n;i++)
+{
+msgstr = msgstr +i +"-----
+alert(msgstr);
+}
+}
+>"+i*i +"\n";
+-->
+</script>
+<body onload="sqr0">
+</body>
+</html>
