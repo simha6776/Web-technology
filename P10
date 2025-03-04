@@ -25,3 +25,29 @@ var total salesTaxTotal + sum;
 if(totall=0) {
 alert("Your total cost is: " + (total.toFixed(2)) + 'with 5% salestax');
 return false;
+}else{
+alert("Invalid total cost, please make a selection: ");
+}
+}
+</script>
+</head>
+<body>
+<h3>My Simple Store</h3>
+<form name="myStore" action="" onSubmit="return false;">
+<table width="200" cellspacing="0" cellpadding="4">
+<tr>
+<td><input type="text" size="2" id="Stock0" value="10"> Apples (.59 cents)</td> <td><input type="checkbox" value="0.59" id="choice0" onclick="calculate();"></td> </tr>
+<tr>
+<td><input type="text" size="2" id="Stock1" value="10"> Orange (.49 cents)</td> <td><input type="checkbox" value="0.49" id="choice 1" onclick="calculate();"></td> </tr>
+<tr>
+<td><input type="text" size="2" id="Stock2" value="10"> Banana (.39 cents)</td> <td><input type="checkbox" value="0.39" id="choice2" onclick="calculate();"></td>
+</tr>
+<tr>
+<td><input type="submit" value="submit" onclick="totalCost 0);">
+<input type="reset" value="reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
