@@ -1,0 +1,33 @@
+
+<html>
+<head>Stack Ordering with moveback <title>Stack Ordering with moveback</title>
+<- Define styling properties -->
+<style type="text/css">
+#layer1
+border:solid thick black;
+background-color:brown;
+padding:10px;
+width:300px;
+height:200px;
+position:absolute;
+top:100px;
+left:200px;
+z-index: 1;
+}
+#layer2
+{
+border:solid thick black;
+background-color:gray;
+padding:10px;
+width:300px;
+height:200px;
+position:absolute;
+top:120px;
+left:220px;
+z-index:2;
+}
+#layer3
+{
+border:solid thick black;
+background-color:white;
+padding:10px;
