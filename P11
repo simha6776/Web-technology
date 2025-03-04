@@ -30,3 +30,32 @@ machine parsable.</b>
 <img src="images/vtu-logo.jpg" alt="visvesvaraya technological university" will
 height="42">
 <br>
+
+<br>
+<h4>Text formatting tags</h4> <p>This text is normal.</p> <p><b>This text is bold.</b></p>
+<p><strong>This text is strong.</strong></p> <p><i>This text is italic</i></p>
+<h2>This is<mark>Marked</mark> Formatting</h2> <p>HTML is a language for describing web pages.</p> <h1>horizontal rule</h1>
+<hr>
+<h2>link in html</h2>
+<a href="http://www.vtu.ac.in">VTU HOMW PAGE</a><br> <b>Student Details</b>
+<br>
+<h4>TABLES IN HTML</h4>
+<table border="2">
+<tr>
+<th>NAME</th>
+<th>USN</th>
+<th>PHNO</th>
+</tr>
+<tr>
+<th>Swamy L N</th>
+<th>4VZ20MC001</th>
+<th>9773773737</th>
+</tr>
+<tr>
+<th>LUKUVEER</th>
+<th>4VZ20MC002</th>
+<th>6945454545</th>
+</tr>
+</table>
+</body>
+</html>
