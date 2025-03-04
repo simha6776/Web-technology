@@ -31,3 +31,34 @@ z-index:2;
 border:solid thick black;
 background-color:white;
 padding:10px;
+
+width:300px; height:200px;
+position:absolute;
+top: 140px;
+left:240px;
+z-index:3;
+}
+</style>
+</head>
+<body>
+<script type=text/javascript>
+var toplayer="layer3";
+var origpos;
+//function to place the choosen layer on the top
+function mover (toTop,pos)
+{
+}
+document.getElementById(toTop).style.zIndex="4";
+topLayer=toTop;
+origpos=pos;
+//function to place the choosen layer back to it's original place
+function moveBack()
+{
+}
+document.getElementById(topLayer).style.zIndex=origpos;
+</script>
+<p id=layer1 onMouseOver=mover('layer1','1'); onMouseOut=moveBack()>This is the last layer</p>
+<p id=layer2 onMouseOver=mover('layer2', '2'); onMouseOut=move Back()>This is the middle layer</p>
+<p id=layer3 onMouseOver=mover ('layer3','3'); onMouseOut=move Back()>This is the first layer</p>
+</body>
+</html>
